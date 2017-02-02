@@ -6,7 +6,7 @@ const router = require('express').Router();
 router.post('/add', function(req, res) {
     logger.debug("Inside user post");
     let user = req.body;
-    res.send('Hello '+user);
+    res.send(user);
 });
 
 // Get details of all user in the system

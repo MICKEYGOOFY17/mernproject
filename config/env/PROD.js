@@ -1,4 +1,4 @@
-const masterMongoDBName = process.env.APP_DB || 'oxygen';
+const masterMongoDBName = process.env.APP_DB || 'zomatoappDB';
 
 const mongo = {
 	host: process.env.MONGO_HOST || '127.0.0.1',
