@@ -5,7 +5,8 @@ const app = require("../bin/www");
 
 var url = supertest("http://localhost:8080/restaurant");
 
-//get
+//post
+
 describe("Testing the restaurant route", function(err){
   it("should handle the request", function(done){
     url

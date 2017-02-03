@@ -9,7 +9,7 @@ const mongoURL = ('mongodb://' + mongo.host + ':' + mongo.port + '/' +
 	masterMongoDBName);
 
 module.exports = {
-	WWW_PORT: process.env.ZYNLA_WWW_PORT || process.env.PORT || 8080,
+	WWW_PORT: process.env.zomotoappDB_WWW_PORT || process.env.PORT || 8080,
 	MONGO_MASTER_DB_NAME: masterMongoDBName,
 	MONGO_MASTER_SERVER: mongo,
 	MONGO_URL: mongoURL

@@ -1,49 +1,141 @@
 'use strict';
 const logger = require('./../../applogger');
 const router = require('express').Router();
-//const userCtrl = require('./userController');
+//const userCtrl = require('./restaurantController');
+const restaurantModel = require('./restaurantEntity');
 
-router.post('/add', function(req, res) {
-    logger.debug("Inside user post");
-    let user = req.body;
-    if(Object.keys(user).length === 0)
-    {
-      res.send("pass a json");
-    }
-    else {
-      res.json(user);
+
+//adding restaurants
+router.post('/add',function(req, res) {
+    logger.debug(JSON.stringify(req.body));
+    if (req.body._id !== undefined) {
+      let restaurant = new restaurantModel(req.body);
+      restaurant.save(function(err){
+        if(err)
+        {
+          res.send('some error occurred');
+        }
+        else {
+          res.send('Restaurant saved successfully');
+        }
+      });
     }
 });
 
+
+//displays all the restaurant
+router.get('/displayall', function(req, res) {
+  restaurantModel.find({}, function(err,restaurants){
+    if(err)
+    {
+      res.send(err);
+    }
+    else {
+      res.send(restaurants);
+    }
+  });
+});
+
+
+//displays the restaurants in that city
+router.get('/displaycity/:location', function(req, res) {
+  let city = req.params.location;
+  restaurantModel.find({"address.0.city" : city}, function(err,restaurants){
+    if(err)
+    {
+      res.send(err);
+    }
+    else {
+      res.send(restaurants);
+    }
+  });
+});
+
+
+//displays the restaurants based on name
+router.get('/displayrestaurant/:name', function(req, res) {
+  let name = req.params.name;
+  restaurantModel.find({"name" : name}, function(err,restaurants){
+    if(err)
+    {
+      res.send(err);
+    }
+    else {
+      res.send(restaurants);
+    }
+  });
+});
+
+
+//displays the restaurants in that state
+router.get('/displaystate/:location', function(req, res) {
+  let state = req.params.location;
+  restaurantModel.find({"address.0.state" : state}, function(err,restaurants){
+    if(err)
+    {
+      res.send(err);
+    }
+    else {
+      res.send(restaurants);
+    }
+  });
+});
+
+
+
+//updating all the data
 router.put('/update', function(req, res) {
-    let resid = req.body.restaurantId;
-    let cmt = req.body.comment;
+    let resid = Number(req.body.id);
+    let resname = req.body.name;
+    let rescity = req.body.city;
+    let resstate = req.body.state;
     logger.debug("To update");
-    if(cmt!=null)
+    if(resname !== null)
     {
-      res.send('Your Comment is '+cmt);
+      restaurantModel.findOneAndUpdate({_id : resid},{$set :{name : resname,'address.0.city':rescity,'address.0.state':resstate}}, function(err,users){
+        if(err)
+        {
+          res.send(err);
+        }
+        else {
+            res.send('Updated');
+          }
+      });
     }
     else {
-      res.send('enter a comment');
+      res.send('enter a valid restaurantId');
     }
 });
 
-router.delete('/delete', function(req, res) {
-    let resid = Number(req.body.restaurantId);
-    if(isNaN(resid))
-    {
-      res.send('enter a valid restaurant Id');
-    }
-    else {
-      logger.debug("Deleting the Id");
-      res.send('Restaurant Deleted '+ resid);
-    }
+//deleting particular restaurant based on id
+router.delete('/deleteid', function(req, res) {
+  let restaurantId = req.body.id;
+  if(restaurantId !== null)
+  {
+    restaurantModel.remove({_id : restaurantId}, function(err,users){
+      if(err)
+      {
+        res.send(err);
+      }
+      else {
+          res.send('Deleted successfully');
+        }
+    });
+  }
 });
 
-// Get details of all user in the system
-router.get('/', function(req, res) {
-  console.log('Inside get');
-  res.send('response from user GET route check');
+
+//deleting all restaurants
+router.delete('/deleteall', function(req, res) {
+    restaurantModel.remove({}, function(err,users){
+      if(err)
+      {
+        res.send(err);
+      }
+      else {
+          res.send('Deleted successfully');
+        }
+    });
 });
 
 module.exports = router;
