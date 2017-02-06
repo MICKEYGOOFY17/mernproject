@@ -1,0 +1,68 @@
+[04 02 2017 07:26:06.074] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:26:06.192] [DEBUG] - {"name":"yuva","value":"32"}
+[04 02 2017 07:26:08.149] [DEBUG] - {"id":"12"}
+[04 02 2017 07:26:10.151] [DEBUG] - {}
+[04 02 2017 07:26:12.154] [DEBUG] - To update
+[04 02 2017 07:26:12.188] [DEBUG] - To update
+[04 02 2017 07:33:59.949] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:34:00.067] [DEBUG] - {"name":"yuva","value":"32"}
+[04 02 2017 07:34:02.025] [DEBUG] - {"id":"12"}
+[04 02 2017 07:34:04.029] [DEBUG] - {}
+[04 02 2017 07:34:06.033] [DEBUG] - To update
+[04 02 2017 07:34:06.069] [DEBUG] - To update
+[04 02 2017 07:36:57.992] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:36:58.131] [DEBUG] - {"name":"yuva","value":"32"}
+[04 02 2017 07:37:00.093] [DEBUG] - {"id":"12"}
+[04 02 2017 07:37:02.093] [DEBUG] - {}
+[04 02 2017 07:37:04.096] [DEBUG] - To update
+[04 02 2017 07:37:04.130] [DEBUG] - To update
+[04 02 2017 07:39:07.087] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:39:07.222] [DEBUG] - {"name":"yuva","value":"32"}
+[04 02 2017 07:39:09.183] [DEBUG] - {"id":"12"}
+[04 02 2017 07:39:11.185] [DEBUG] - {}
+[04 02 2017 07:39:13.190] [DEBUG] - To update
+[04 02 2017 07:39:13.219] [DEBUG] - To update
+[04 02 2017 07:40:45.552] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:40:45.692] [DEBUG] - {"name":"yuva","value":"32"}
+[04 02 2017 07:40:47.653] [DEBUG] - {"id":"12"}
+[04 02 2017 07:40:49.657] [DEBUG] - {}
+[04 02 2017 07:40:51.661] [DEBUG] - To update
+[04 02 2017 07:40:51.690] [DEBUG] - To update
+[04 02 2017 07:41:03.619] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:41:03.759] [DEBUG] - {"name":"yuva","value":"32"}
+[04 02 2017 07:41:05.720] [DEBUG] - {"id":"12"}
+[04 02 2017 07:41:07.720] [DEBUG] - {}
+[04 02 2017 07:41:09.723] [DEBUG] - To update
+[04 02 2017 07:41:09.737] [DEBUG] - To update
+[04 02 2017 07:44:17.186] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:44:17.325] [DEBUG] - {"name":"yuva","value":"32"}
+[04 02 2017 07:44:19.284] [DEBUG] - {"id":"12"}
+[04 02 2017 07:44:21.287] [DEBUG] - {}
+[04 02 2017 07:44:23.291] [DEBUG] - To update
+[04 02 2017 07:44:23.316] [DEBUG] - To update
+[04 02 2017 07:44:56.094] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:46:24.521] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:46:50.872] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:47:30.168] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:48:32.366] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:49:14.176] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:49:34.615] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:49:50.659] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:50:03.722] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:50:26.439] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 07:54:14.843] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 08:00:14.843] [DEBUG] - Mongoose is now disconnected..!
+[04 02 2017 08:00:25.343] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 08:01:03.935] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 08:01:20.414] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 10:46:06.258] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 10:46:27.069] [DEBUG] - {}
+[04 02 2017 10:46:59.101] [DEBUG] - {"_id":5,"name":"Ashwin","address":[{"city":"Kochi","state":"Kerala","_id":"1"}]}
+[04 02 2017 10:48:21.413] [DEBUG] - {"_id":6,"name":"Ashwin","address":[{"city":"Kochi","state":"Kerala","_id":"1"}]}
+[04 02 2017 10:48:49.610] [DEBUG] - {"name":"Ashwin","address":[{"city":"Kochi","state":"Kerala","_id":"1"}]}
+[04 02 2017 11:04:16.454] [DEBUG] - Mongoose is now disconnected..!
+[04 02 2017 11:40:48.054] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 11:42:32.417] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 11:45:27.448] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 11:47:59.995] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[04 02 2017 11:48:42.248] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB

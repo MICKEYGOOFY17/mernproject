@@ -8,17 +8,20 @@ const restaurantModel = require('./restaurantEntity');
 //adding restaurants
 router.post('/add',function(req, res) {
     logger.debug(JSON.stringify(req.body));
-    if (req.body._id !== undefined) {
+    if (Object.keys(req.body).length>0) {
       let restaurant = new restaurantModel(req.body);
       restaurant.save(function(err){
         if(err)
         {
-          res.send('some error occurred');
+          res.send('please enter all the details, with new id');
         }
         else {
           res.send('Restaurant saved successfully');
         }
       });
+    }
+    else {
+      res.send("enter some data")
     }
 });
 
@@ -43,10 +46,16 @@ router.get('/displaycity/:location', function(req, res) {
   restaurantModel.find({"address.0.city" : city}, function(err,restaurants){
     if(err)
     {
-      res.send(err);
+      res.send("enter a valid city");
     }
     else {
-      res.send(restaurants);
+      if(restaurants.length>0)
+      {
+        res.send(restaurants);
+      }
+      else {
+        res.send("enter a valid city");
+      }
     }
   });
 });
@@ -85,17 +94,21 @@ router.get('/displaystate/:location', function(req, res) {
 
 //updating all the data
 router.put('/update', function(req, res) {
-    let resid = Number(req.body.id);
+
+  if(Object.keys(req).length>0)
+  {
+    let resid = Number(req.body._id);
     let resname = req.body.name;
-    let rescity = req.body.city;
-    let resstate = req.body.state;
+    let rescity = req.body.address[0].city;
+    let resstate = req.body.address[0].state;
     logger.debug("To update");
-    if(resname !== null)
+    logger.debug(resid+" "+resname+" "+rescity+" "+resstate);
+    if(resid !== 0 && resname !== "" && rescity !== "" && resstate !== "")
     {
       restaurantModel.findOneAndUpdate({_id : resid},{$set :{name : resname,'address.0.city':rescity,'address.0.state':resstate}}, function(err,users){
         if(err)
         {
-          res.send(err);
+          res.send("enter all details");
         }
         else {
             res.send('Updated');
@@ -103,13 +116,17 @@ router.put('/update', function(req, res) {
       });
     }
     else {
-      res.send('enter a valid restaurantId');
+      res.send('enter a valid restaurant details');
+    }
+    }
+    else {
+      res.send('enter some details');
     }
 });
 
 //deleting particular restaurant based on id
 router.delete('/deleteid', function(req, res) {
-  let restaurantId = req.body.id;
+  let restaurantId = req.body._id;
   if(restaurantId !== null)
   {
     restaurantModel.remove({_id : restaurantId}, function(err,users){
@@ -118,7 +135,7 @@ router.delete('/deleteid', function(req, res) {
         res.send(err);
       }
       else {
-          res.send('Deleted successfully');
+          res.send('Deleted the id '+restaurantId+' successfully');
         }
     });
   }
@@ -133,7 +150,7 @@ router.delete('/deleteall', function(req, res) {
         res.send(err);
       }
       else {
-          res.send('Deleted successfully');
+          res.send('Deleted all the restaurants successfully');
         }
     });
 });

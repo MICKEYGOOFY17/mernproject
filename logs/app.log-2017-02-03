@@ -1,0 +1,120 @@
+[03 02 2017 04:06:58.530] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:08:04.108] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:08:19.347] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:09:17.449] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:11:33.534] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:12:09.048] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:14:54.571] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:15:45.694] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:17:20.425] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:18:16.078] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:19:04.859] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:19:27.770] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:20:24.372] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:20:54.215] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:21:38.595] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:25:51.460] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:27:02.312] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan","address":"{city : 'Bangalore',state : 'Karnataka'}"}
+[03 02 2017 04:37:07.833] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan","address":"{'city' : 'Bangalore','state' : 'Karnataka'}"}
+[03 02 2017 04:56:37.922] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:56:40.533] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan","address":"Bangalore"}
+[03 02 2017 04:58:34.502] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 04:58:56.989] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 05:13:19.381] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 05:13:23.134] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan","address":"{city : Bangalore, state : Karnataka}"}
+[03 02 2017 05:20:40.968] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 05:20:41.709] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan","address":"{city : Bangalore, state : Karnataka}"}
+[03 02 2017 05:22:35.210] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan","address":"{city : Bangalore, state : Karnataka}"}
+[03 02 2017 05:24:55.667] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 05:24:56.865] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan","address":"{city : Bangalore, state : Karnataka}"}
+[03 02 2017 05:27:16.704] [DEBUG] - {"{\n\"id\" : 1,\n\"name\" : 'Annapoorna',\n\"address\" : {\n\"city\" : \"Bangalore\",\n\"state\" : \"Karnataka\"\n}\n}":""}
+[03 02 2017 05:28:02.398] [DEBUG] - {"{\nid : 1,\nname : 'Annapoorna',\n\"address\" : {\n\"city\" : \"Bangalore\",\n\"state\" : \"Karnataka\"\n}\n}":""}
+[03 02 2017 05:30:16.799] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan","address":"{city : 'Bangalore', state :' Karnataka'}"}
+[03 02 2017 05:31:36.900] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan"}
+[03 02 2017 05:31:38.288] [DEBUG] - {"id":"1","name":"Adayar Anandha Bhavan"}
+[03 02 2017 05:50:38.413] [DEBUG] - {"{\n\"id\" : \"1\",\n\"name\" : \"Annapoorna\",\n\"address\" : {\n\"city\" : \"Bangalore\",\n\"state\" : \"Karnataka\"\n}\n}":""}
+[03 02 2017 05:51:04.448] [DEBUG] - {"{\n\"id\" : \"1\",\n\"name\" : \"Annapoorna\"\n}":""}
+[03 02 2017 05:52:38.510] [DEBUG] - {"{\n\"id\" : \"1\",\n\"name\" : \"Annapoorna\"\n}":""}
+[03 02 2017 05:53:20.283] [DEBUG] - {"{\n\"id\" : 1,\n\"name\" : \"Annapoorna\"\n}":""}
+[03 02 2017 05:55:00.371] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 05:55:14.133] [DEBUG] - {"{\n\"id\" : 1,\n\"name\" : \"Annapoorna\"\n}":""}
+[03 02 2017 05:55:46.838] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 05:55:57.220] [DEBUG] - {"{\n\"id\" : 1,\n\"name\" : \"Annapoorna\"\n}":""}
+[03 02 2017 05:56:38.107] [DEBUG] - {"id":1,"name":"Annapoorna"}
+[03 02 2017 05:58:14.735] [DEBUG] - {"id":1,"name":"Annapoorna","address":{"city":"bangalore","state":"Karnataka"}}
+[03 02 2017 06:07:40.179] [DEBUG] - {"id":1,"name":"Annapoorna","address":[{"city":"bangalore","state":"Karnataka"}]}
+[03 02 2017 06:10:21.051] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:10:25.418] [DEBUG] - {"id":1,"name":"Annapoorna","address":[{"city":"bangalore","state":"Karnataka"}]}
+[03 02 2017 06:16:53.249] [DEBUG] - {"_id":1,"name":"Annapoorna","address":[{"city":"bangalore","state":"Karnataka"}]}
+[03 02 2017 06:17:15.200] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:17:16.469] [DEBUG] - {"_id":1,"name":"Annapoorna","address":[{"city":"bangalore","state":"Karnataka"}]}
+[03 02 2017 06:17:53.138] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:18:02.158] [DEBUG] - {"_id":2,"name":"A2B","address":[{"city":"bangalore","state":"Karnataka"}]}
+[03 02 2017 06:20:49.981] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:30:10.799] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:32:25.459] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:33:18.786] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:35:38.916] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:36:22.682] [DEBUG] - {"_id":2,"name":"Saravana Bhavan","address":[{"city":"salem","state":"Tamil Nadu"}]}
+[03 02 2017 06:36:30.311] [DEBUG] - {"_id":3,"name":"Saravana Bhavan","address":[{"city":"salem","state":"Tamil Nadu"}]}
+[03 02 2017 06:38:11.216] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:45:48.016] [DEBUG] - Mongoose is now disconnected..!
+[03 02 2017 06:46:00.781] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:47:19.274] [DEBUG] - To update
+[03 02 2017 06:49:28.160] [DEBUG] - {"[\n  {\n    \"_id\": 1,\n    \"name\": \"Annapoorna\",\n    \"__v\": 0,\n    \"address\": [\n      {\n        \"city\": \"bangalore\",\n        \"state\": \"Karnataka\",\n        \"_id\": \"1\"\n      }\n    ]\n  },\n  {\n    \"_id\": 2,\n    \"name\": \"A2B\",\n    \"__v\": 0,\n    \"address\": [\n      {\n        \"city\": \"bangalore\",\n        \"state\": \"Karnataka\",\n        \"_id\": \"1\"\n      }\n    ]\n  },\n  {\n    \"_id\": 3,\n    \"name\": \"Saravana Bhavan\",\n    \"__v\": 0,\n    \"address\": [\n      {\n        \"city\": \"salem\",\n        \"state\": \"Tamil Nadu\",\n        \"_id\": \"1\"\n      }\n    ]\n  }\n]":""}
+[03 02 2017 06:49:43.110] [DEBUG] - {"[\n  {\n    \"_id\": 1,\n    \"name\": \"Annapoorna\",\n    \"__v\": 0,\n    \"address\": [\n      {\n        \"city\": \"bangalore\",\n        \"state\": \"Karnataka\",\n        \"_id\": \"1\"\n      }\n    ]\n  },\n  {\n    \"_id\": 2,\n    \"name\": \"A2B\",\n    \"__v\": 0,\n    \"address\": [\n      {\n        \"city\": \"bangalore\",\n        \"state\": \"Karnataka\",\n        \"_id\": \"1\"\n      }\n    ]\n  },\n  {\n    \"_id\": 3,\n    \"name\": \"Saravana Bhavan\",\n    \"__v\": 0,\n    \"address\": [\n      {\n        \"city\": \"salem\",\n        \"state\": \"Tamil Nadu\",\n        \"_id\": \"1\"\n      }\n    ]\n  }\n]":""}
+[03 02 2017 06:50:06.872] [DEBUG] - {"{\n    \"_id\": 1,\n    \"name\": \"Annapoorna\",\n    \"__v\": 0,\n    \"address\": [\n      {\n        \"city\": \"bangalore\",\n        \"state\": \"Karnataka\",\n        \"_id\": \"1\"\n      }\n    ]\n  }":""}
+[03 02 2017 06:50:13.668] [DEBUG] - {"{\n    \"_id\": 1,\n    \"name\": \"Annapoorna\",\n    \"address\": [\n      {\n        \"city\": \"bangalore\",\n        \"state\": \"Karnataka\",\n        \"_id\": \"1\"\n      }\n    ]\n  }":""}
+[03 02 2017 06:50:22.548] [DEBUG] - {"{\n    \"_id\": 1,\n    \"name\": \"Annapoorna\",\n    \"address\": [\n      {\n        \"city\": \"bangalore\",\n        \"state\": \"Karnataka\",\n        \"_id\": \"1\"\n      }\n    ]\n  }":""}
+[03 02 2017 06:51:23.962] [DEBUG] - [{"_id":1,"name":"Annapoorna","address":[{"city":"bangalore","state":"Karnataka","_id":"1"}]},{"_id":2,"name":"A2B","address":[{"city":"bangalore","state":"Karnataka","_id":"1"}]},{"_id":3,"name":"Saravana Bhavan","address":[{"city":"salem","state":"Tamil Nadu","_id":"1"}]}]
+[03 02 2017 06:51:49.694] [DEBUG] - {"_id":1,"name":"Annapoorna","address":[{"city":"bangalore","state":"Karnataka","_id":"1"}]}
+[03 02 2017 06:52:01.346] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:52:04.394] [DEBUG] - {"_id":1,"name":"Annapoorna","address":[{"city":"bangalore","state":"Karnataka","_id":"1"}]}
+[03 02 2017 06:52:24.079] [DEBUG] - {"_id":2,"name":"A2B","address":[{"city":"bangalore","state":"Karnataka","_id":"1"}]}
+[03 02 2017 06:52:32.555] [DEBUG] - {"_id":3,"name":"Saravana Bhavan","address":[{"city":"salem","state":"Tamil Nadu","_id":"1"}]}
+[03 02 2017 06:53:01.905] [DEBUG] - To update
+[03 02 2017 06:53:47.717] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:53:50.812] [DEBUG] - To update
+[03 02 2017 06:53:59.651] [DEBUG] - To update
+[03 02 2017 06:54:21.352] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:54:22.422] [DEBUG] - To update
+[03 02 2017 06:55:09.717] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:55:13.826] [DEBUG] - To update
+[03 02 2017 06:55:47.433] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:55:48.460] [DEBUG] - NaN
+[03 02 2017 06:55:48.462] [DEBUG] - To update
+[03 02 2017 06:56:25.270] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:56:35.930] [DEBUG] - To update
+[03 02 2017 06:57:25.946] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:57:26.945] [DEBUG] - undefined
+[03 02 2017 06:57:26.947] [DEBUG] - To update
+[03 02 2017 06:58:08.317] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:58:09.457] [DEBUG] - To update
+[03 02 2017 06:58:19.318] [DEBUG] - To update
+[03 02 2017 06:58:42.426] [DEBUG] - To update
+[03 02 2017 06:58:43.240] [DEBUG] - To update
+[03 02 2017 06:58:53.010] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 06:58:54.094] [DEBUG] - To update
+[03 02 2017 07:06:45.492] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 07:07:54.889] [DEBUG] - {"{\n    \"_id\": 1,\n    \"name\": \"Annapoorna\",\n    \"address\": [\n      {\n        \"city\": \"chennai\",\n        \"state\": \"Tamil Nadu\",\n        \"_id\": \"1\"\n      }\n    ]\n  }\n":""}
+[03 02 2017 07:08:53.072] [DEBUG] - {"{\n    \"_id\": 3,\n    \"name\": \"Apoorva\",\n    \"address\": [\n      {\n        \"city\": \"chennai\",\n        \"state\": \"Tamil Nadu\",\n        \"_id\": \"1\"\n      }\n    ]\n  }\n":""}
+[03 02 2017 07:08:57.939] [DEBUG] - {"{\n    \"_id\": 4,\n    \"name\": \"Apoorva\",\n    \"address\": [\n      {\n        \"city\": \"chennai\",\n        \"state\": \"Tamil Nadu\",\n        \"_id\": \"1\"\n      }\n    ]\n  }\n":""}
+[03 02 2017 07:09:36.942] [DEBUG] - {"_id":3,"name":"Apoorva","address":[{"city":"chennai","state":"Tamil Nadu","_id":"1"}]}
+[03 02 2017 07:10:55.259] [DEBUG] - {"_id":1,"name":"Apoorva","address":[{"city":"chennai","state":"Tamil Nadu","_id":"1"}]}
+[03 02 2017 07:11:30.712] [DEBUG] - {"_id":2,"name":"Adayaar Anandha Bhavan","address":[{"city":"bangalore","state":"Karnataka","_id":"1"}]}
+[03 02 2017 07:11:53.218] [DEBUG] - {"_id":3,"name":"Saravana Bhavan","address":[{"city":"Salem","state":"Tamil Nadu","_id":"1"}]}
+[03 02 2017 07:15:03.463] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 07:15:21.944] [DEBUG] - Mongoose is now disconnected..!
+[03 02 2017 07:15:29.915] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 07:17:13.575] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 07:22:26.368] [DEBUG] - To update
+[03 02 2017 07:23:46.112] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 08:42:21.343] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 08:43:19.811] [DEBUG] - {"{\n    \"_id\": 4,\n    \"name\": \"Seasons\",\n    \"address\": [\n      {\n        \"city\": \"Bangalore\",\n        \"state\": \"Karnataka\",\n        \"_id\": \"1\"\n      }\n    ]\n  }\n":""}
+[03 02 2017 08:47:01.532] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 08:47:06.102] [DEBUG] - {"{\n    \"_id\": 4,\n    \"name\": \"Seasons\",\n    \"address\": [\n      {\n        \"city\": \"Bangalore\",\n        \"state\": \"Karnataka\",\n        \"_id\": \"1\"\n      }\n    ]\n  }\n":""}
+[03 02 2017 08:48:03.613] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 08:48:08.894] [DEBUG] - {"_id":4,"name":"Seasons","address":[{"city":"Bangalore","state":"Karnataka","_id":"1"}]}
+[03 02 2017 08:49:01.784] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[03 02 2017 08:49:07.574] [DEBUG] - {"_id":5,"name":"Ashwin","address":[{"city":"Kochi","state":"Kerala","_id":"1"}]}
+[03 02 2017 09:23:53.459] [DEBUG] - Mongoose is now disconnected..!

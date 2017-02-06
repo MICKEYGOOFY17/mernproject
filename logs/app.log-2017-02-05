@@ -1,0 +1,126 @@
+[05 02 2017 13:19:22.045] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:20:15.702] [DEBUG] - {"_id":8,"name":"Thalaserri","address":[{"city":"Salem","state":"Tamil Nadu"}]}
+[05 02 2017 13:21:49.483] [DEBUG] - To update
+[05 02 2017 13:31:50.428] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:34:03.722] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:36:38.692] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:39:40.736] [DEBUG] - Mongoose is now disconnected..!
+[05 02 2017 13:39:50.070] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:40:33.605] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:41:02.826] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:41:20.239] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:44:48.378] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:48:01.628] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:48:29.257] [DEBUG] - {}
+[05 02 2017 13:49:06.042] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:49:15.272] [DEBUG] - {"{\n    \"name\": \"Thalaserri\",\n    \"address\": [\n      {\n        \"city\": \"Salem\",\n        \"state\": \"Tamil Nadu\"\n      }\n    ]\n  }\n":""}
+[05 02 2017 13:49:32.110] [DEBUG] - {"{\n\t\"_id\": 8,\n    \"name\": \"Thalaserri\",\n    \"address\": [\n      {\n        \"city\": \"Salem\",\n        \"state\": \"Tamil Nadu\"\n      }\n    ]\n  }\n":""}
+[05 02 2017 13:49:47.542] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:49:49.985] [DEBUG] - {"{\n\t\"_id\": 8,\n    \"name\": \"Thalaserri\",\n    \"address\": [\n      {\n        \"city\": \"Salem\",\n        \"state\": \"Tamil Nadu\"\n      }\n    ]\n  }\n":""}
+[05 02 2017 13:51:40.799] [DEBUG] - Mongoose is now disconnected..!
+[05 02 2017 13:51:50.226] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:51:50.320] [DEBUG] - {"_id":8,"name":"Thalaserri","address":[{"city":"Salem","state":"Tamil Nadu"}]}
+[05 02 2017 13:51:50.395] [DEBUG] - {"id":"12"}
+[05 02 2017 13:51:50.410] [DEBUG] - {}
+[05 02 2017 13:53:17.302] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:53:17.396] [DEBUG] - {"_id":9,"name":"Savera","address":[{"city":"Erode","state":"Tamil Nadu"}]}
+[05 02 2017 13:53:17.469] [DEBUG] - {"id":"12"}
+[05 02 2017 13:53:17.485] [DEBUG] - {}
+[05 02 2017 13:54:37.245] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:54:37.342] [DEBUG] - {"_id":9,"name":"Savera","address":[{"city":"Erode","state":"Tamil Nadu"}]}
+[05 02 2017 13:54:37.413] [DEBUG] - {}
+[05 02 2017 13:55:47.129] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:55:47.226] [DEBUG] - {"_id":9,"name":"Savera","address":[{"city":"Erode","state":"Tamil Nadu"}]}
+[05 02 2017 13:55:47.301] [DEBUG] - {}
+[05 02 2017 13:56:16.269] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:56:16.363] [DEBUG] - {"_id":9,"name":"Savera","address":[{"city":"Erode","state":"Tamil Nadu"}]}
+[05 02 2017 13:56:16.448] [DEBUG] - {}
+[05 02 2017 13:58:47.018] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:58:47.187] [DEBUG] - {"_id":1,"name":"Metro","address":[{"city":"Kovilpatti","state":"Tamil Nadu"}]}
+[05 02 2017 13:58:47.237] [DEBUG] - {"_id":7,"name":"Savera","address":[{"city":"Erode","state":"Tamil Nadu"}]}
+[05 02 2017 13:58:47.254] [DEBUG] - {}
+[05 02 2017 13:58:47.262] [DEBUG] - To update
+[05 02 2017 13:58:47.277] [DEBUG] - To update
+[05 02 2017 13:59:12.555] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 13:59:12.727] [DEBUG] - {"_id":1,"name":"Metro","address":[{"city":"Kovilpatti","state":"Tamil Nadu"}]}
+[05 02 2017 13:59:12.780] [DEBUG] - {"_id":7,"name":"Savera","address":[{"city":"Erode","state":"Tamil Nadu"}]}
+[05 02 2017 13:59:12.795] [DEBUG] - {}
+[05 02 2017 13:59:12.803] [DEBUG] - To update
+[05 02 2017 13:59:12.818] [DEBUG] - To update
+[05 02 2017 14:00:03.223] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 14:00:03.387] [DEBUG] - {"_id":1,"name":"Metro","address":[{"city":"Kovilpatti","state":"Tamil Nadu"}]}
+[05 02 2017 14:00:03.437] [DEBUG] - {"_id":7,"name":"Savera","address":[{"city":"Erode","state":"Tamil Nadu"}]}
+[05 02 2017 14:00:03.453] [DEBUG] - {}
+[05 02 2017 14:00:41.854] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 14:00:41.991] [DEBUG] - {"_id":11,"name":"Metro","address":[{"city":"Kovilpatti","state":"Tamil Nadu"}]}
+[05 02 2017 14:00:42.030] [DEBUG] - {"_id":7,"name":"Savera","address":[{"city":"Erode","state":"Tamil Nadu"}]}
+[05 02 2017 14:00:42.043] [DEBUG] - {}
+[05 02 2017 14:06:57.267] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 14:07:45.166] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 14:08:54.593] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 14:09:00.058] [DEBUG] - To update
+[05 02 2017 15:56:59.727] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 15:57:00.854] [DEBUG] - To update
+[05 02 2017 15:57:18.512] [DEBUG] - To update
+[05 02 2017 15:57:57.487] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 15:57:58.657] [DEBUG] - To update
+[05 02 2017 16:01:40.866] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:01:41.944] [DEBUG] - To update
+[05 02 2017 16:01:41.946] [DEBUG] - 1  Bangalore Karnataka
+[05 02 2017 16:02:10.967] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:02:11.041] [DEBUG] - To update
+[05 02 2017 16:02:11.043] [DEBUG] - 1  Bangalore Karnataka
+[05 02 2017 16:02:22.924] [DEBUG] - To update
+[05 02 2017 16:02:22.930] [DEBUG] - 1 Seasons Bangalore Karnataka
+[05 02 2017 16:02:27.130] [DEBUG] - To update
+[05 02 2017 16:02:27.131] [DEBUG] - 1 Seasons  Karnataka
+[05 02 2017 16:02:34.500] [DEBUG] - To update
+[05 02 2017 16:02:34.501] [DEBUG] - 1 Seasons Bangalore 
+[05 02 2017 16:04:11.654] [DEBUG] - Mongoose is now disconnected..!
+[05 02 2017 16:04:19.745] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:04:19.824] [DEBUG] - To update
+[05 02 2017 16:04:19.825] [DEBUG] - NaN Le Promanade undefined undefined
+[05 02 2017 16:04:19.860] [DEBUG] - To update
+[05 02 2017 16:04:19.862] [DEBUG] - NaN Le Promanade undefined undefined
+[05 02 2017 16:05:38.824] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:05:39.592] [DEBUG] - To update
+[05 02 2017 16:05:39.597] [DEBUG] - NaN undefined undefined undefined
+[05 02 2017 16:05:55.266] [DEBUG] - To update
+[05 02 2017 16:05:55.274] [DEBUG] - NaN Le Promanade undefined undefined
+[05 02 2017 16:06:47.973] [DEBUG] - To update
+[05 02 2017 16:06:47.976] [DEBUG] - NaN Le Promanade undefined undefined
+[05 02 2017 16:07:23.722] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:07:28.620] [DEBUG] - To update
+[05 02 2017 16:07:28.624] [DEBUG] - NaN Le Promanade undefined undefined
+[05 02 2017 16:09:10.823] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:09:11.071] [DEBUG] - To update
+[05 02 2017 16:09:11.073] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[05 02 2017 16:09:17.628] [DEBUG] - Mongoose is now disconnected..!
+[05 02 2017 16:09:29.535] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:09:29.615] [DEBUG] - To update
+[05 02 2017 16:09:29.616] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[05 02 2017 16:09:29.662] [DEBUG] - To update
+[05 02 2017 16:09:29.663] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[05 02 2017 16:10:28.570] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:10:28.653] [DEBUG] - To update
+[05 02 2017 16:10:28.654] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[05 02 2017 16:10:28.701] [DEBUG] - To update
+[05 02 2017 16:10:28.701] [DEBUG] - 7  Pondicherry Pondicherry
+[05 02 2017 16:15:07.493] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:15:47.893] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:16:25.171] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:16:25.262] [DEBUG] - {"_id":7,"name":"Le Promanade","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[05 02 2017 16:16:25.322] [DEBUG] - {"_id":7,"name":"Le Paradise","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[05 02 2017 16:16:25.337] [DEBUG] - {}
+[05 02 2017 16:16:25.381] [DEBUG] - To update
+[05 02 2017 16:16:25.382] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[05 02 2017 16:16:25.399] [DEBUG] - To update
+[05 02 2017 16:16:25.400] [DEBUG] - 7  Pondicherry Pondicherry
+[05 02 2017 16:17:05.837] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[05 02 2017 16:17:05.938] [DEBUG] - {"_id":7,"name":"Le Promanade","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[05 02 2017 16:17:05.984] [DEBUG] - {"_id":7,"name":"Le Paradise","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[05 02 2017 16:17:06.001] [DEBUG] - {}
+[05 02 2017 16:17:06.045] [DEBUG] - To update
+[05 02 2017 16:17:06.046] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[05 02 2017 16:17:06.063] [DEBUG] - To update
+[05 02 2017 16:17:06.064] [DEBUG] - 7  Pondicherry Pondicherry

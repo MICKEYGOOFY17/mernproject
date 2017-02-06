@@ -7,6 +7,8 @@ const userModel = require('./userEntity');
 router.post('/add', function(req, res) {
     logger.debug(JSON.stringify(req.body));
     let user = new userModel(req.body);
+    if(Object.keys(req.body).length>0)
+    {
     user.save(function(err){
       if(err)
       {
@@ -17,6 +19,10 @@ router.post('/add', function(req, res) {
       }
     });
     // res.send(user);
+  }
+else {
+  res.send('enter details');
+}
 });
 
 // Get details of all user in the system
@@ -35,20 +41,32 @@ router.get('/displayall', function(req, res) {
 
 router.get('/display/:user', function(req, res) {
 
-  userModel.find({name : (req.params.user)}, function(err,users){
+  var name = req.params.user;
+  if(name !== null)
+  {
+    userModel.find({name : name}, function(err,users){
     if(err)
     {
       res.send(err);
     }
     else {
-      res.send(users);
+      if(users.length>0)
+      {
+        res.send(users);
+      }
+      else {
+        res.send('user does not exist')
+      }
     }
-  });
+    });
+  }
+  else {
+    res.send('enter some data');
+  }
 });
 
 router.delete('/delete', function(req, res) {
   let user = req.body.name;
-  let value = undefined;
   if(user !== null)
   {
     userModel.remove({name : user}, function(err,users){
@@ -57,17 +75,42 @@ router.delete('/delete', function(req, res) {
         res.send(err);
       }
       else {
-          res.send('Deleted successfully');
+          if(JSON.parse(users).n !== 0)
+          {
+            res.send('Deleted '+user+' successfully');
+          }
+          else {
+            res.send('wrong user');
+          }
         }
     });
   }
+});
+
+
+router.delete('/deleteall', function(req, res) {
+    userModel.remove({}, function(err,users){
+      if(err)
+      {
+        res.send(err);
+      }
+      else {
+          if(Number(JSON.parse(users).n) !== 0)
+          {
+            res.send('Deleted all successfully');
+          }
+          else {
+            res.send('no users');
+          }
+        }
+    });
 });
 
 router.put('/update', function(req, res) {
   let user = req.body.name;
   let password = req.body.password;
   console.log(user + "" +password);
-  if(user !== null)
+  if(user !== null && user !== "")
   {
     userModel.findOneAndUpdate({name : user},{$set :{password: password}}, function(err,users){
       if(err)
@@ -75,9 +118,18 @@ router.put('/update', function(req, res) {
         res.send(err);
       }
       else {
-          res.send('Updated successfully');
+            if(users !== null)
+            {
+              res.send('Updated successfully');
+            }
+            else {
+              res.send('user does not exist');
+            }
         }
     });
+  }
+  else {
+    res.send('enter a user');
   }
 });
 

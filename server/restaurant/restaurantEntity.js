@@ -2,12 +2,28 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var restaurantSchema = new Schema({
-  _id : Number,
-  name : String,
+  _id : {
+    type : Number,
+    required : true
+  },
+  name : {
+    type : String,
+    required : true
+  },
   address : [{
-    _id : Number,
-    city : String,
-    state : String
+    _id : {
+      type : Number,
+      required : true,
+      default : 1
+    },
+    city : {
+      type : String,
+      required : true
+    },
+    state : {
+      type : String,
+      required : true
+    }
   }]
 });
 
