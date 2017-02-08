@@ -1,28 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Child from './components/sample';
+import Child from './components/restaurant/search.jsx';
+var Card = require('./components/restaurant/card.jsx');
+
+import $ from 'jquery';
 
 class MainComponent extends React.Component {
     constructor() {
         super();
-        this.state = {name : "yuva"};
         this.onClick = this.onClick.bind(this);
+        this.state = {"resArray" : []}
     }
-    onClick(a)
+    onClick(id,cuisine)
     {
-      this.setState({name : a});
+      $.ajax({
+        url: 'https://developers.zomato.com/api/v2.1/search?entity_id='+id+'&entity_type=city&q='+cuisine+'&count=10&apikey=4be6f427983a4fdbbd96118609d30c06',
+        dataType: 'jsonp',
+        success: function(json){
+          console.log('data: ', json.restaurants);
+          this.setState({"resArray":json.restaurants});
+        }.bind(this)
+    });
     }
-
-    static defaultProps= {nam:'John Doe'};
-
 
     render() {
       return (
             <div>
-                <h1>React App</h1>
-                <h2>Hello from React</h2>
-                <Child name={this.state.name} age="21" name1={this.props.nam} color="blue" click={this.onClick}/>
-                <button onClick={this.onClick.bind(this,"shree")}>Affects parent and child</button>
+              <Child  click={this.onClick}/>
+              <Card resArray={this.state.resArray}/>
             </div>
         )
     }
