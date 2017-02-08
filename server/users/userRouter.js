@@ -4,6 +4,7 @@ const router = require('express').Router();
 //const userCtrl = require('./userController');
 const userModel = require('./userEntity');
 
+/* adding details to user collection */
 router.post('/add', function(req, res) {
     logger.debug(JSON.stringify(req.body));
     let user = new userModel(req.body);
@@ -25,7 +26,7 @@ else {
 }
 });
 
-// Get details of all user in the system
+/* displaying all details */
 router.get('/displayall', function(req, res) {
 
   userModel.find({}, function(err,users){
@@ -39,6 +40,7 @@ router.get('/displayall', function(req, res) {
   });
 });
 
+/* displaying particular detail */
 router.get('/display/:user', function(req, res) {
 
   var name = req.params.user;
@@ -65,6 +67,7 @@ router.get('/display/:user', function(req, res) {
   }
 });
 
+/* deleting a user */
 router.delete('/delete', function(req, res) {
   let user = req.body.name;
   if(user !== null)
@@ -87,7 +90,7 @@ router.delete('/delete', function(req, res) {
   }
 });
 
-
+/* deleting all user */
 router.delete('/deleteall', function(req, res) {
     userModel.remove({}, function(err,users){
       if(err)
@@ -106,6 +109,7 @@ router.delete('/deleteall', function(req, res) {
     });
 });
 
+/* updating user password */
 router.put('/update', function(req, res) {
   let user = req.body.name;
   let password = req.body.password;

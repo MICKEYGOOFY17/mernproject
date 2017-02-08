@@ -1,12 +1,12 @@
 'use strict';
-//const path = require('path');
+const path = require('path');
 
 const service = require('./service');
 
-/*function setupWebAppRESTRoutes(app) {
+function setupWebAppRESTRoutes(app) {
   app.use('/users', require(path.join(__dirname, './users')));
   return app;
-}*/
+}
 
 // App Constructor function is exported
 module.exports = function() {
@@ -14,7 +14,7 @@ module.exports = function() {
 
   app = service.setupWebpack(app);
 
-//  app = service.setupStaticRoutes(app);
+  app = service.setupStaticRoutes(app);
 
   app = service.setupMiddlewares(app);
 

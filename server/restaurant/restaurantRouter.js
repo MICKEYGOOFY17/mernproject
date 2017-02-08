@@ -5,7 +5,7 @@ const router = require('express').Router();
 const restaurantModel = require('./restaurantEntity');
 
 
-//adding restaurants
+/* adding restaurants */
 router.post('/add',function(req, res) {
     logger.debug(JSON.stringify(req.body));
     if (Object.keys(req.body).length>0) {
@@ -26,7 +26,7 @@ router.post('/add',function(req, res) {
 });
 
 
-//displays all the restaurant
+/* displays all the restaurant */
 router.get('/displayall', function(req, res) {
   restaurantModel.find({}, function(err,restaurants){
     if(err)
@@ -40,7 +40,7 @@ router.get('/displayall', function(req, res) {
 });
 
 
-//displays the restaurants in that city
+/* displays the restaurants in that city */
 router.get('/displaycity/:location', function(req, res) {
   let city = req.params.location;
   restaurantModel.find({"address.0.city" : city}, function(err,restaurants){
@@ -61,7 +61,7 @@ router.get('/displaycity/:location', function(req, res) {
 });
 
 
-//displays the restaurants based on name
+/* displays the restaurants based on name */
 router.get('/displayrestaurant/:name', function(req, res) {
   let name = req.params.name;
   restaurantModel.find({"name" : name}, function(err,restaurants){
@@ -76,7 +76,7 @@ router.get('/displayrestaurant/:name', function(req, res) {
 });
 
 
-//displays the restaurants in that state
+/* displays the restaurants in that state */
 router.get('/displaystate/:location', function(req, res) {
   let state = req.params.location;
   restaurantModel.find({"address.0.state" : state}, function(err,restaurants){
@@ -92,7 +92,7 @@ router.get('/displaystate/:location', function(req, res) {
 
 
 
-//updating all the data
+/* updating all the data */
 router.put('/update', function(req, res) {
 
   if(Object.keys(req).length>0)
@@ -124,7 +124,7 @@ router.put('/update', function(req, res) {
     }
 });
 
-//deleting particular restaurant based on id
+/* deleting particular restaurant based on id */
 router.delete('/deleteid', function(req, res) {
   let restaurantId = req.body._id;
   if(restaurantId !== null)
@@ -142,7 +142,7 @@ router.delete('/deleteid', function(req, res) {
 });
 
 
-//deleting all restaurants
+/* deleting all restaurants */
 router.delete('/deleteall', function(req, res) {
     restaurantModel.remove({}, function(err,users){
       if(err)

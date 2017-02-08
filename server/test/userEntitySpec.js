@@ -4,6 +4,7 @@ const assert = require ("chai").assert;
 const supertest = require("supertest");
 const user = require("../users/userEntity.js");
 
+/*checks whether the fields are required*/
 describe("for entity",function(){
   it("name should be mandatory",function(done){
       let use = new user();

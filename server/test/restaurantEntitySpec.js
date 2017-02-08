@@ -4,6 +4,7 @@ const assert = require ("chai").assert;
 const supertest = require("supertest");
 const restaurant = require("../restaurant/restaurantEntity.js");
 
+/* testing name to be a required field */
 describe("for entity",function(){
   it("name should be mandatory",function(done){
       let use = new restaurant();
@@ -12,6 +13,8 @@ describe("for entity",function(){
         done();
       });
   });
+
+  /* testing id to be a required field */
   it("id should be mandatory",function(done){
       let use = new restaurant();
       use.validate(function(err){
@@ -19,6 +22,8 @@ describe("for entity",function(){
         done();
       });
   });
+
+  /* testing city to be a required field */
   it("city should be mandatory",function(done){
       let use = new restaurant();
       use.validate(function(err){

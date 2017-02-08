@@ -6,7 +6,7 @@ const app = require("../../bin/www");
 
 var url = supertest("http://localhost:8080/users");
 
-//post
+/* adding data to collection */
   describe("Testing POST route", function(err){
    it("should add details", function(done){
      url
@@ -44,7 +44,7 @@ var url = supertest("http://localhost:8080/users");
   });
 
 
-  //get
+  /* displaying the details */
   describe("Testing the user route", function(err){
     it("should handle the request", function(done){
       url
@@ -73,7 +73,7 @@ var url = supertest("http://localhost:8080/users");
   });
 
 
-//put
+/* updating the details */
 describe("Testing PUT route", function(err){
  it("should update data", function(done){
    url
@@ -111,7 +111,7 @@ describe("Testing PUT route", function(err){
 });
 
 
-//delete
+/* deleting the details */
 describe("Testing DELETE route", function(err){
  it("should delete particular user", function(done){
    url

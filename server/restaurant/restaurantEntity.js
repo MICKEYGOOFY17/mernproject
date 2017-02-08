@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+/* restaurant schema */
 var restaurantSchema = new Schema({
   _id : {
     type : Number,

@@ -6,7 +6,7 @@ const app = require("../../bin/www");
 
 var url = supertest("http://localhost:8080/restaurant");
 
-//post
+/* post data to check data insertion */
   describe("Testing POST route", function(err){
    it("should add details", function(done){
      url
@@ -19,7 +19,7 @@ var url = supertest("http://localhost:8080/restaurant");
            done();
          });
       });
-    it("should add details", function(done){
+    it("should have new id and all details", function(done){
         url
             .post("/add")
             .send({"_id": 7,"name": "Le Paradise","address": [{"city": "Pondicherry","state": "Pondicherry"}]})
@@ -44,9 +44,9 @@ var url = supertest("http://localhost:8080/restaurant");
   });
 
 
-  //get
+  /* display data based on request */
   describe("Testing the restaurant route", function(err){
-    it("should handle the request", function(done){
+    it("should display the city details", function(done){
       url
           .get("/displaycity/Pondicherry")
           .expect(200)
@@ -58,7 +58,7 @@ var url = supertest("http://localhost:8080/restaurant");
             done();
           });
     });
-    it("should not handle the request", function(done){
+    it("should ask to enter correct data if city is invalid", function(done){
         url
             .get("/displaycity/Kashmir")
             .expect(200)
@@ -73,9 +73,9 @@ var url = supertest("http://localhost:8080/restaurant");
   });
 
 
-//put
+/* update details based on request */
 describe("Testing PUT route", function(err){
- it("should handle and send the computed info", function(done){
+ it("should update the details", function(done){
    url
        .put("/update")
        .send({"_id": 7,"name": "Le Promanade","address": [{"city": "Pondicherry","state": "Pondicherry"}]})
@@ -86,7 +86,7 @@ describe("Testing PUT route", function(err){
          done();
        });
  });
- it("should provide all the details", function(done){
+ it("should give all details", function(done){
    url
        .put("/update")
        .send({"_id": 7,"name": "","address": [{"city": "Pondicherry","state": "Pondicherry"}]})
@@ -100,9 +100,9 @@ describe("Testing PUT route", function(err){
 });
 
 
-//delete
+/* should delete based on id */
 describe("Testing DELETE route", function(err){
- it("should delete details", function(done){
+ it("should delete details of specified id", function(done){
    url
        .delete("/deleteid")
        .send({_id : 7})
@@ -114,7 +114,7 @@ describe("Testing DELETE route", function(err){
        });
 
  });
- it("should handle and send the computed info", function(done){
+ it("should delete all the details", function(done){
    url
        .delete("/deleteall")
        .expect(200)
