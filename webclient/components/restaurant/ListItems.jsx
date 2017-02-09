@@ -1,12 +1,13 @@
-var React = require('react');
-import {Card,Icon,Button,Image} from 'semantic-ui-react';
+let React = require('react');
+import {Card, Icon, Image} from 'semantic-ui-react';
+import Add from './button.jsx';
 
 
-var ListItem=React.createClass({
-  render:function(){
+let ListItem = React.createClass({
+  render: function() {
     return (
-                    <Card style={{marginLeft:25}}>
-                            <Image src={this.props.image} style={{height:170}}/>
+                    <Card style={{marginLeft: 25}}>
+                            <Image src={this.props.image} style={{height: 170}}/>
                             <Card.Content>
                               <Card.Header>
                                 {this.props.name}
@@ -15,18 +16,17 @@ var ListItem=React.createClass({
                                  {this.props.id}
                                </Card.Meta>
                                <Card.Description>
-                                 {this.props.address}<br/>Cuisine:{this.props.cuisine}
+                                 {this.props.address}<br/>
                                </Card.Description>
                              </Card.Content>
                              <Card.Content extra>
-                                  <Icon className="smile"></Icon>{this.props.rating}
-                                      <Button size='medium' color='green' floated = 'right'>
-                                        <Icon name='add' />
-                                        Add to Favourites
-                                      </Button>
+                                  <Icon className='smile'></Icon>{this.props.rating}
+                                  <Add id = {this.props.id} name = {this.props.name}
+                                    address = {this.props.address} rating = {this.props.rating}
+                                    image = {this.props.image} detail={this.props.detail}/>
                               </Card.Content>
                         </Card>
     );
   }
 });
-module.exports=ListItem;
+module.exports = ListItem;

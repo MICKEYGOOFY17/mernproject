@@ -1,18 +1,18 @@
 'use strict';
 const logger = require('./../../applogger');
 const router = require('express').Router();
-//const userCtrl = require('./restaurantController');
-const restaurantModel = require('./restaurantEntity');
+const RestaurantModel = require('./restaurantEntity');
 
 
 /* adding restaurants */
-router.post('/add',function(req, res) {
+router.post('/add', function(req, res) {
     logger.debug(JSON.stringify(req.body));
     if (Object.keys(req.body).length>0) {
-      let restaurant = new restaurantModel(req.body);
+      let restaurant = new RestaurantModel(req.body);
       restaurant.save(function(err){
         if(err)
         {
+          console.log(err);
           res.send('please enter all the details, with new id');
         }
         else {
@@ -28,7 +28,7 @@ router.post('/add',function(req, res) {
 
 /* displays all the restaurant */
 router.get('/displayall', function(req, res) {
-  restaurantModel.find({}, function(err,restaurants){
+  RestaurantModel.find({}, function(err,restaurants){
     if(err)
     {
       res.send(err);
@@ -43,7 +43,7 @@ router.get('/displayall', function(req, res) {
 /* displays the restaurants in that city */
 router.get('/displaycity/:location', function(req, res) {
   let city = req.params.location;
-  restaurantModel.find({"address.0.city" : city}, function(err,restaurants){
+  RestaurantModel.find({"address.0.city" : city}, function(err,restaurants){
     if(err)
     {
       res.send("enter a valid city");
@@ -64,7 +64,7 @@ router.get('/displaycity/:location', function(req, res) {
 /* displays the restaurants based on name */
 router.get('/displayrestaurant/:name', function(req, res) {
   let name = req.params.name;
-  restaurantModel.find({"name" : name}, function(err,restaurants){
+  RestaurantModel.find({"name" : name}, function(err,restaurants){
     if(err)
     {
       res.send(err);
@@ -79,7 +79,7 @@ router.get('/displayrestaurant/:name', function(req, res) {
 /* displays the restaurants in that state */
 router.get('/displaystate/:location', function(req, res) {
   let state = req.params.location;
-  restaurantModel.find({"address.0.state" : state}, function(err,restaurants){
+  RestaurantModel.find({"address.0.state" : state}, function(err,restaurants){
     if(err)
     {
       res.send(err);
@@ -97,15 +97,7 @@ router.put('/update', function(req, res) {
 
   if(Object.keys(req).length>0)
   {
-    let resid = Number(req.body._id);
-    let resname = req.body.name;
-    let rescity = req.body.address[0].city;
-    let resstate = req.body.address[0].state;
-    logger.debug("To update");
-    logger.debug(resid+" "+resname+" "+rescity+" "+resstate);
-    if(resid !== 0 && resname !== "" && rescity !== "" && resstate !== "")
-    {
-      restaurantModel.findOneAndUpdate({_id : resid},{$set :{name : resname,'address.0.city':rescity,'address.0.state':resstate}}, function(err,users){
+      RestaurantModel.findOneAndUpdate({_id : req.body.id},{$set :{comments : req.body.comment}}, function(err,users){
         if(err)
         {
           res.send("enter all details");
@@ -118,18 +110,14 @@ router.put('/update', function(req, res) {
     else {
       res.send('enter a valid restaurant details');
     }
-    }
-    else {
-      res.send('enter some details');
-    }
 });
 
 /* deleting particular restaurant based on id */
 router.delete('/deleteid', function(req, res) {
-  let restaurantId = req.body._id;
+  let restaurantId = req.body.id;
   if(restaurantId !== null)
   {
-    restaurantModel.remove({_id : restaurantId}, function(err,users){
+    RestaurantModel.remove({_id : restaurantId}, function(err,users){
       if(err)
       {
         res.send(err);
@@ -144,7 +132,7 @@ router.delete('/deleteid', function(req, res) {
 
 /* deleting all restaurants */
 router.delete('/deleteall', function(req, res) {
-    restaurantModel.remove({}, function(err,users){
+    RestaurantModel.remove({}, function(err,users){
       if(err)
       {
         res.send(err);

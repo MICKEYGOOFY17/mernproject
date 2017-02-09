@@ -24,11 +24,10 @@ describe("for entity",function(){
   });
 
   /* testing city to be a required field */
-  it("city should be mandatory",function(done){
+  it("address should be mandatory",function(done){
       let use = new restaurant();
       use.validate(function(err){
-        for(var i=0;i<use.address;i++)
-        expect(err.errors.address[i].city).to.exist;
+        expect(err.errors.address.to.exist;
         done();
       });
   });

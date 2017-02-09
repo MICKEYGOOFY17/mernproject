@@ -1,31 +1,32 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+let mongoose = require('mongoose');
+let Schema = mongoose.Schema;
 
 /* restaurant schema */
-var restaurantSchema = new Schema({
-  _id : {
-    type : Number,
-    required : true
+let restaurantSchema = new Schema({
+  _id: {
+    type: String,
+    required: true
   },
-  name : {
-    type : String,
-    required : true
+  name: {
+    type: String,
+    required: true
   },
-  address : [{
-    _id : {
-      type : Number,
-      required : true,
-      default : 1
-    },
-    city : {
-      type : String,
-      required : true
-    },
-    state : {
-      type : String,
-      required : true
-    }
-  }]
+  address: {
+      type: String,
+      required: true
+  },
+  image: {
+    type: String,
+    required: true
+  },
+  rating: {
+      type: String,
+      required: true
+  },
+  comments: {
+      type: String,
+      default: ''
+  }
 });
 
 const Restaurant = mongoose.model('Restaurant', restaurantSchema);

@@ -1,0 +1,92 @@
+[08 02 2017 04:19:48.618] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 04:19:53.119] [DEBUG] - {"_id":7,"name":"Le Promanade","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:19:55.834] [DEBUG] - {"_id":7,"name":"Le Paradise","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:19:55.953] [DEBUG] - {}
+[08 02 2017 04:19:57.505] [DEBUG] - To update
+[08 02 2017 04:19:57.506] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[08 02 2017 04:19:57.968] [DEBUG] - To update
+[08 02 2017 04:19:57.968] [DEBUG] - 7  Pondicherry Pondicherry
+[08 02 2017 04:19:58.445] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 04:20:00.027] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 04:20:01.270] [DEBUG] - {}
+[08 02 2017 04:20:13.595] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 04:20:17.931] [DEBUG] - {"_id":7,"name":"Le Promanade","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:20:18.287] [DEBUG] - {"_id":7,"name":"Le Paradise","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:20:19.359] [DEBUG] - {}
+[08 02 2017 04:20:19.990] [DEBUG] - To update
+[08 02 2017 04:20:19.991] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[08 02 2017 04:20:21.065] [DEBUG] - To update
+[08 02 2017 04:20:21.065] [DEBUG] - 7  Pondicherry Pondicherry
+[08 02 2017 04:20:22.292] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 04:20:22.310] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 04:20:22.320] [DEBUG] - {}
+[08 02 2017 04:41:48.964] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 04:41:57.226] [DEBUG] - {"name":"yuva"}
+[08 02 2017 04:42:15.841] [DEBUG] - {"name":"shree","password":"1234","_id":"2"}
+[08 02 2017 04:42:19.553] [DEBUG] - Mongoose is now disconnected..!
+[08 02 2017 04:42:27.041] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 04:42:31.394] [DEBUG] - {"_id":7,"name":"Le Promanade","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:42:31.768] [DEBUG] - {"_id":7,"name":"Le Paradise","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:42:32.422] [DEBUG] - {}
+[08 02 2017 04:42:33.516] [DEBUG] - To update
+[08 02 2017 04:42:33.517] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[08 02 2017 04:42:34.583] [DEBUG] - To update
+[08 02 2017 04:42:34.587] [DEBUG] - 7  Pondicherry Pondicherry
+[08 02 2017 04:42:35.857] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 04:42:35.866] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 04:42:35.875] [DEBUG] - {}
+[08 02 2017 04:43:18.789] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 04:43:21.260] [DEBUG] - {"name":"vidhya","password":"1234","_id":"2"}
+[08 02 2017 04:43:24.195] [DEBUG] - Mongoose is now disconnected..!
+[08 02 2017 04:43:32.830] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 04:43:37.231] [DEBUG] - {"_id":7,"name":"Le Promanade","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:43:37.593] [DEBUG] - {"_id":7,"name":"Le Paradise","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:43:38.671] [DEBUG] - {}
+[08 02 2017 04:43:39.320] [DEBUG] - To update
+[08 02 2017 04:43:39.321] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[08 02 2017 04:43:40.382] [DEBUG] - To update
+[08 02 2017 04:43:40.386] [DEBUG] - 7  Pondicherry Pondicherry
+[08 02 2017 04:43:41.573] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 04:43:41.582] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 04:43:41.591] [DEBUG] - {}
+[08 02 2017 04:55:41.433] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 04:55:46.044] [DEBUG] - {"_id":7,"name":"Le Promanade","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:55:46.585] [DEBUG] - {"_id":7,"name":"Le Paradise","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 04:55:47.472] [DEBUG] - {}
+[08 02 2017 04:55:48.103] [DEBUG] - To update
+[08 02 2017 04:55:48.104] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[08 02 2017 04:55:49.207] [DEBUG] - To update
+[08 02 2017 04:55:49.208] [DEBUG] - 7  Pondicherry Pondicherry
+[08 02 2017 04:55:50.468] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 04:55:50.480] [DEBUG] - {}
+[08 02 2017 05:04:43.794] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 05:04:48.128] [DEBUG] - {"_id":7,"name":"Le Promanade","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 05:04:48.687] [DEBUG] - {"_id":7,"name":"Le Paradise","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 05:04:49.654] [DEBUG] - {}
+[08 02 2017 05:04:50.328] [DEBUG] - To update
+[08 02 2017 05:04:50.328] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[08 02 2017 05:04:51.383] [DEBUG] - To update
+[08 02 2017 05:04:51.384] [DEBUG] - 7  Pondicherry Pondicherry
+[08 02 2017 05:04:52.603] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 05:04:52.615] [DEBUG] - {}
+[08 02 2017 05:06:32.269] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 05:06:36.618] [DEBUG] - {"_id":7,"name":"Le Promanade","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 05:06:36.996] [DEBUG] - {"_id":7,"name":"Le Paradise","address":[{"city":"Pondicherry","state":"Pondicherry"}]}
+[08 02 2017 05:06:38.053] [DEBUG] - {}
+[08 02 2017 05:06:38.746] [DEBUG] - To update
+[08 02 2017 05:06:38.747] [DEBUG] - 7 Le Promanade Pondicherry Pondicherry
+[08 02 2017 05:06:39.804] [DEBUG] - To update
+[08 02 2017 05:06:39.805] [DEBUG] - 7  Pondicherry Pondicherry
+[08 02 2017 05:06:40.950] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 05:06:40.958] [DEBUG] - {"_id":1,"name":"yuva","password":"1234"}
+[08 02 2017 05:06:40.968] [DEBUG] - {}
+[08 02 2017 05:21:49.154] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 09:51:43.661] [DEBUG] - Mongoose is now disconnected..!
+[08 02 2017 09:53:28.244] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 10:02:44.868] [DEBUG] - Mongoose is now disconnected..!
+[08 02 2017 10:03:50.667] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 10:55:13.590] [DEBUG] - Mongoose is now disconnected..!
+[08 02 2017 11:21:51.515] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 12:14:28.633] [DEBUG] - Mongoose is now disconnected..!
+[08 02 2017 13:57:25.236] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[08 02 2017 16:03:21.778] [DEBUG] - Mongoose is now disconnected..!
