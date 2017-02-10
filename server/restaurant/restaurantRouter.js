@@ -9,11 +9,11 @@ router.post('/add', function(req, res) {
     logger.debug(JSON.stringify(req.body));
     if (Object.keys(req.body).length>0) {
       let restaurant = new RestaurantModel(req.body);
-      restaurant.save(function(err){
+      restaurant.save(function(err) {
         if(err)
         {
           console.log(err);
-          res.send('please enter all the details, with new id');
+          res.send('enter new id');
         }
         else {
           res.send('Restaurant saved successfully');
@@ -59,6 +59,27 @@ router.get('/displaycity/:location', function(req, res) {
     }
   });
 });
+
+/* display based on id */
+router.get('/display/:id', function(req, res) {
+  let id = req.params.id;
+  RestaurantModel.find({"_id" : id}, function(err,restaurants){
+    if(err)
+    {
+      res.send("enter a valid id");
+    }
+    else {
+      if(restaurants.length>0)
+      {
+        res.send(restaurants[0].comments);
+      }
+      else {
+        res.send("enter a valid id");
+      }
+    }
+  });
+});
+
 
 
 /* displays the restaurants based on name */

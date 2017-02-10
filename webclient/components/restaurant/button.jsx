@@ -18,16 +18,16 @@ class Add extends React.Component {
         return (
           <Save id = {this.props.id} name = {this.props.name}
           address = {this.props.address} rating = {this.props.rating}
-          image = {this.props.image}/>);
+          image = {this.props.image} refresh={this.props.refresh}/>);
         }
       else {
         return (
         <div>
             <Update id = {this.props.id} name = {this.props.name}
               address = {this.props.address} rating = {this.props.rating}
-              image = {this.props.image}/>
+              image = {this.props.image} change={this.props.change}/>
 
-              <Delete id = {this.props.id}/>
+              <Delete id = {this.props.id} change={this.props.change}/>
         </div>
         );
       }

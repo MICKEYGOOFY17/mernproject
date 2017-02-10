@@ -8,7 +8,7 @@ class ViewComponent extends React.Component {
     render() {
       return (
             <div>
-              <Fav detail='update'/>
+              <Fav/>
             </div>
         );
     }

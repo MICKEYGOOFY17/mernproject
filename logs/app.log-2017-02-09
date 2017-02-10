@@ -1,0 +1,96 @@
+[09 02 2017 03:36:35.603] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 06:28:35.566] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 07:19:49.240] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 07:37:22.331] [DEBUG] - {"id":"1","name":"A2B","address":"bangalore","rating":"3.4"}
+[09 02 2017 07:39:15.495] [DEBUG] - {"id":"1","name":"A2B","address":"bangalore","rating":"3.4"}
+[09 02 2017 07:44:46.195] [DEBUG] - {"id":"1","name":"A2B","address":"bangalore","rating":"3.4"}
+[09 02 2017 07:46:11.696] [DEBUG] - {"id":"1","name":"A2B","address":"bangalore","rating":"3.4"}
+[09 02 2017 07:48:10.278] [DEBUG] - {"id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai"}
+[09 02 2017 07:48:38.243] [DEBUG] - {"id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai"}
+[09 02 2017 07:49:30.410] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai"}
+[09 02 2017 07:50:49.440] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"4.0"}
+[09 02 2017 07:51:24.946] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 07:51:33.990] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 07:53:39.811] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"4.0"}
+[09 02 2017 07:54:17.037] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"4.0"}
+[09 02 2017 07:54:51.325] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"4.0"}
+[09 02 2017 07:54:53.597] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"4.0"}
+[09 02 2017 07:55:08.241] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"4.0"}
+[09 02 2017 07:55:20.882] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 07:55:29.015] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 07:56:00.585] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","rating":"4.0"}
+[09 02 2017 07:57:26.710] [DEBUG] - {"_id":"69224","name":"Southern Chinese Restaurant","address":"F 19, 1st Floor, 2nd Main Road, Anna Nagar East, Chennai","rating":"3.7"}
+[09 02 2017 08:32:04.510] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 08:32:13.193] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 08:52:13.172] [DEBUG] - {"_id":"71596","name":"Mr. Hong's Chinese","address":"3/155, No 1, 4th Main Road, Venkatesapuram, Kottivakkam, Chennai","image":"https://b.zmtcdn.com/data/pictures/6/71596/667300ff529f1402ac61b9eddef58ba7_featured_v2.jpg","rating":"3.4"}
+[09 02 2017 09:18:54.192] [DEBUG] - {"_id":"18387751","name":"Embrace Misun Japanese Ramen Chinese Restaurant","address":"Plot 31, Door 7, East Coast Road, Akkarai, Sholinganallur, Chennai","image":"https://b.zmtcdn.com/data/pictures/1/18387751/813dfc83bc936caabbc191ea36512fdc_featured_v2.jpg","rating":"3.2"}
+[09 02 2017 09:20:01.120] [DEBUG] - {"_id":"69224","name":"Southern Chinese Restaurant","address":"F 19, 1st Floor, 2nd Main Road, Anna Nagar East, Chennai","image":"https://b.zmtcdn.com/data/pictures/4/69224/074e8e39678e13a90347ac83c7c4156d_featured_v2.jpg","rating":"3.7"}
+[09 02 2017 09:20:03.076] [DEBUG] - {"_id":"71596","name":"Mr. Hong's Chinese","address":"3/155, No 1, 4th Main Road, Venkatesapuram, Kottivakkam, Chennai","image":"https://b.zmtcdn.com/data/pictures/6/71596/667300ff529f1402ac61b9eddef58ba7_featured_v2.jpg","rating":"3.4"}
+[09 02 2017 09:20:04.352] [DEBUG] - {"_id":"18387751","name":"Embrace Misun Japanese Ramen Chinese Restaurant","address":"Plot 31, Door 7, East Coast Road, Akkarai, Sholinganallur, Chennai","image":"https://b.zmtcdn.com/data/pictures/1/18387751/813dfc83bc936caabbc191ea36512fdc_featured_v2.jpg","rating":"3.2"}
+[09 02 2017 09:21:58.184] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 09:22:05.957] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 09:22:18.143] [DEBUG] - {"_id":"69224","name":"Southern Chinese Restaurant","address":"F 19, 1st Floor, 2nd Main Road, Anna Nagar East, Chennai","image":"https://b.zmtcdn.com/data/pictures/4/69224/074e8e39678e13a90347ac83c7c4156d_featured_v2.jpg","rating":"3.7"}
+[09 02 2017 09:22:18.811] [DEBUG] - {"_id":"71596","name":"Mr. Hong's Chinese","address":"3/155, No 1, 4th Main Road, Venkatesapuram, Kottivakkam, Chennai","image":"https://b.zmtcdn.com/data/pictures/6/71596/667300ff529f1402ac61b9eddef58ba7_featured_v2.jpg","rating":"3.4"}
+[09 02 2017 09:22:20.171] [DEBUG] - {"_id":"18387751","name":"Embrace Misun Japanese Ramen Chinese Restaurant","address":"Plot 31, Door 7, East Coast Road, Akkarai, Sholinganallur, Chennai","image":"https://b.zmtcdn.com/data/pictures/1/18387751/813dfc83bc936caabbc191ea36512fdc_featured_v2.jpg","rating":"3.2"}
+[09 02 2017 09:52:54.895] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 09:53:04.015] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 10:01:09.742] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 10:01:17.996] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 11:37:29.781] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 11:37:37.780] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 11:52:46.728] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 11:54:12.025] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 11:54:47.260] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","image":"https://b.zmtcdn.com/data/pictures/7/71657/f90611c3d1d2afe9411d92697059d7c0_featured_v2.jpg","rating":"4.0"}
+[09 02 2017 12:20:53.663] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 12:21:01.673] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 12:24:40.532] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 12:24:49.421] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 12:34:12.819] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 12:34:20.383] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 12:38:34.601] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 12:38:42.042] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 12:39:27.916] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 12:39:36.232] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 13:53:05.681] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 13:54:46.847] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 14:16:45.885] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 14:16:53.970] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 14:19:22.204] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 14:19:30.454] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 14:50:34.646] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 14:50:44.634] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 16:25:04.665] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","image":"https://b.zmtcdn.com/data/pictures/7/71657/f90611c3d1d2afe9411d92697059d7c0_featured_v2.jpg","rating":"4.0"}
+[09 02 2017 16:25:18.865] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","image":"https://b.zmtcdn.com/data/pictures/7/71657/f90611c3d1d2afe9411d92697059d7c0_featured_v2.jpg","rating":"4.0"}
+[09 02 2017 16:27:20.217] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","image":"https://b.zmtcdn.com/data/pictures/7/71657/f90611c3d1d2afe9411d92697059d7c0_featured_v2.jpg","rating":"4.0"}
+[09 02 2017 16:27:25.475] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","image":"https://b.zmtcdn.com/data/pictures/7/71657/f90611c3d1d2afe9411d92697059d7c0_featured_v2.jpg","rating":"4.0"}
+[09 02 2017 16:27:39.878] [DEBUG] - {"_id":"66999","name":"Pan Asian - ITC Grand Chola","address":"ITC Grand Chola, 63, Mount Road, Guindy, Chennai","image":"https://b.zmtcdn.com/data/pictures/9/66999/39a8a68439100f234d905055feb8dea8_featured_v2.jpg","rating":"4.5"}
+[09 02 2017 16:46:00.008] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","image":"https://b.zmtcdn.com/data/pictures/7/71657/f90611c3d1d2afe9411d92697059d7c0_featured_v2.jpg","rating":"4.0"}
+[09 02 2017 16:46:13.814] [DEBUG] - {"_id":"66999","name":"Pan Asian - ITC Grand Chola","address":"ITC Grand Chola, 63, Mount Road, Guindy, Chennai","image":"https://b.zmtcdn.com/data/pictures/9/66999/39a8a68439100f234d905055feb8dea8_featured_v2.jpg","rating":"4.5"}
+[09 02 2017 16:46:26.850] [DEBUG] - {"_id":"66296","name":"Hot Pot China","address":"1/1666, MGR Salai, Opposite  Hi Style showroom, Perungudi, Chennai","image":"https://b.zmtcdn.com/data/pictures/6/66296/09585adfb9fb6aee9d177ac7a2c473d4_featured_v2.jpg","rating":"3.7"}
+[09 02 2017 16:48:00.339] [DEBUG] - {"_id":"69149","name":"Momo Restaurant","address":"208/3, OMR, Next To St. Joseph's College, Semmancheri, Chennai","image":"https://b.zmtcdn.com/data/pictures/9/69149/2c6691709bb33f0fd3e8235874406a4b_featured_v2.jpg","rating":"3.9","comments":"massu"}
+[09 02 2017 16:50:11.006] [DEBUG] - {"_id":"16768351","name":"Indian Tanpura","address":"566 Amsterdam Avenue, New York, NY 10024","image":"https://b.zmtcdn.com/data/pictures/1/16768351/34d90c993f7c5e339358b951a634c2ba_featured_v2.png","rating":"3.3","comments":"ooruga mass"}
+[09 02 2017 17:04:01.982] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 17:04:14.214] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 17:17:10.828] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 17:17:19.792] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 17:27:18.742] [DEBUG] - {"_id":"67174","name":"Cake Walk","address":"1, Kothari Road, Sterling Road, Opposite Sterling Club, Nungambakkam, Chennai","image":"https://b.zmtcdn.com/data/pictures/chains/5/65785/15f1d8e3a8f2c0a94d1514bf52e74e49_featured_v2.jpg","rating":"4.0","comments":""}
+[09 02 2017 17:31:57.718] [DEBUG] - {"_id":"69224","name":"Southern Chinese Restaurant","address":"F 19, 1st Floor, 2nd Main Road, Anna Nagar East, Chennai","image":"https://b.zmtcdn.com/data/pictures/4/69224/074e8e39678e13a90347ac83c7c4156d_featured_v2.jpg","rating":"3.7","comments":""}
+[09 02 2017 17:31:59.598] [DEBUG] - {"_id":"71596","name":"Mr. Hong's Chinese","address":"3/155, No 1, 4th Main Road, Venkatesapuram, Kottivakkam, Chennai","image":"https://b.zmtcdn.com/data/pictures/6/71596/667300ff529f1402ac61b9eddef58ba7_featured_v2.jpg","rating":"3.4","comments":""}
+[09 02 2017 17:33:56.320] [DEBUG] - {"_id":"54416","name":"Lan Thai","address":"5th Avenue Mall, Ground Floor, Brigade Road, Bangalore","image":"https://b.zmtcdn.com/data/pictures/6/54416/9c408a32d42d1c10f14d8a7c710f3b6b_featured_v2.jpg","rating":"3.9","comments":""}
+[09 02 2017 17:33:59.008] [DEBUG] - {"_id":"61480","name":"Nasi And Mee","address":"974, 80 Feet Road, Koramangala 4th Block, Bangalore","image":"https://b.zmtcdn.com/data/pictures/0/61480/850b366ea50c41e13046c41cbaeb52f7_featured_v2.jpg","rating":"4.4","comments":""}
+[09 02 2017 17:34:02.450] [DEBUG] - {"_id":"58243","name":"Tim Tai","address":"130, 1st Cross, Koramangala 5th Block, Bangalore","image":"https://b.zmtcdn.com/data/pictures/3/58243/ba038307094b301a19ae6fc4f7d09db7_featured_v2.jpg","rating":"4.3","comments":""}
+[09 02 2017 17:37:03.394] [DEBUG] - {"_id":"18285153","name":"Corn Town Thai & Chinese Restaurant","address":"24th Main Road, Near Bindiya Appartment, JP Nager 5th Phase, JP Nagar, Bangalore","image":"https://b.zmtcdn.com/data/pictures/3/18285153/3a569ce42cdf1d88fc86575c63fda0a1_featured_v2.jpg","rating":"3.1","comments":""}
+[09 02 2017 17:37:17.140] [DEBUG] - {"_id":"18285153","name":"Corn Town Thai & Chinese Restaurant","address":"24th Main Road, Near Bindiya Appartment, JP Nager 5th Phase, JP Nagar, Bangalore","image":"https://b.zmtcdn.com/data/pictures/3/18285153/3a569ce42cdf1d88fc86575c63fda0a1_featured_v2.jpg","rating":"3.1","comments":""}
+[09 02 2017 17:38:36.562] [DEBUG] - {"_id":"54416","name":"Lan Thai","address":"5th Avenue Mall, Ground Floor, Brigade Road, Bangalore","image":"https://b.zmtcdn.com/data/pictures/6/54416/9c408a32d42d1c10f14d8a7c710f3b6b_featured_v2.jpg","rating":"3.9","comments":""}
+[09 02 2017 17:43:09.273] [DEBUG] - {"_id":"18216679","name":"Tom Yum Thai","address":"725, 4th Floor, Above Clinrad Diagnostics & Research Centre, CMH Road, 1st Stage, Defence Colony, Indiranagar, Bangalore","image":"https://b.zmtcdn.com/data/pictures/9/18216679/2f7fd09eae5e093bb3877cca3b3409d0_featured_v2.jpg","rating":"3.9","comments":""}
+[09 02 2017 17:45:58.107] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 17:46:07.316] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 17:48:26.617] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 17:48:34.714] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 17:49:35.838] [DEBUG] - Mongoose is now disconnected..!
+[09 02 2017 17:49:44.373] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoappDB
+[09 02 2017 17:50:21.724] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","image":"https://b.zmtcdn.com/data/pictures/7/71657/f90611c3d1d2afe9411d92697059d7c0_featured_v2.jpg","rating":"4.0","comments":""}
+[09 02 2017 17:52:46.158] [DEBUG] - {"_id":"69224","name":"Southern Chinese Restaurant","address":"F 19, 1st Floor, 2nd Main Road, Anna Nagar East, Chennai","image":"https://b.zmtcdn.com/data/pictures/4/69224/074e8e39678e13a90347ac83c7c4156d_featured_v2.jpg","rating":"3.7","comments":""}
+[09 02 2017 17:52:53.581] [DEBUG] - {"_id":"71596","name":"Mr. Hong's Chinese","address":"3/155, No 1, 4th Main Road, Venkatesapuram, Kottivakkam, Chennai","image":"https://b.zmtcdn.com/data/pictures/6/71596/667300ff529f1402ac61b9eddef58ba7_featured_v2.jpg","rating":"3.4","comments":""}
+[09 02 2017 17:53:13.998] [DEBUG] - {"_id":"71657","name":"The Chinese Story","address":"Plot 4 Mount Poonamalee High Road, Ramapuram, Chennai","image":"https://b.zmtcdn.com/data/pictures/7/71657/f90611c3d1d2afe9411d92697059d7c0_featured_v2.jpg","rating":"4.0","comments":""}
+[09 02 2017 17:59:14.849] [DEBUG] - Mongoose is now disconnected..!

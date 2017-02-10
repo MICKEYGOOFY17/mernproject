@@ -6,7 +6,6 @@ class Delete extends React.Component {
   constructor()
   {
     super();
-    this.state = {content:'Delete'}
     this.delete = this.delete.bind(this);
   }
 
@@ -20,21 +19,26 @@ class Delete extends React.Component {
      type: 'DELETE',
      data: dat,
      success: function(data) {
-       this.setState({content: 'Deleted'});
        console.log(data);
      }.bind(this),
      error: function(err) {
        console.error(err.toString());
      }.bind(this)
    });
+   this.changeState();
   }
+
+    changeState()
+    {
+      this.props.change();
+    }
 
   render()
   {
     return(
-      <Button color='green' floated = 'right' onClick={this.delete}>
+      <Button color='red' floated = 'right' onClick={this.delete}>
         <Icon name='cut' />
-          {this.state.content}
+          Delete
       </Button>
       );
     }

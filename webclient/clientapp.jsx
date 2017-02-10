@@ -19,7 +19,7 @@ var MainComp = React.createClass({
 ReactDOM.render(
   <Router history={browserHistory}>
                 <Route path="/" component={MainComp}>
-                <Route path="/home" component={Home}/>
-                <Route path="/about" component={About}/>
+                <IndexRoute component={Home}/>
+                <Route path="/Favourites" component={About}/>
               </Route>
   </Router>,document.getElementById('app'));

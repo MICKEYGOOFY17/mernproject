@@ -10,7 +10,10 @@ class Save extends React.Component {
     this.handleClose = this.handleClose.bind(this);
     this.change = this.change.bind(this);
     this.save = this.save.bind(this);
-    this.state = {'id': '' , 'name': '' , 'address': '', 'rating': '' ,'viewArray' : [], 'comment': '', modalOpen: false, content:'Add to Favourites'}
+    this.find = this.find.bind(this);
+    this.refresh = this.refresh.bind(this);
+    this.state = {'id': '' , 'name': '' , 'address': '', 'rating': '' ,'viewArray' : [],
+     'comment': '', modalOpen: false, content: 'Add to Favourites', disable: false}
   }
 
     handleOpen = (e) => this.setState({
@@ -19,7 +22,6 @@ class Save extends React.Component {
 
     handleClose(e) {
       this.setState({modalOpen: false});
-      this.setState({content: 'Added'});
       this.save();
   }
 
@@ -43,19 +45,46 @@ class Save extends React.Component {
      type: 'POST',
      data: dat,
      success: function(data) {
-       console.log(data);
+       this.setState({content:'Added'});
+       this.setState({disable:true});
      }.bind(this),
      error: function(err) {
        console.error(err.toString());
      }.bind(this)
    });
+   this.refresh();
+  }
+
+  refresh() {
+    this.props.refresh();
+  }
+  find() {
+    $.ajax({
+     url: 'http://localhost:8080/restaurant/display/'+this.props.id,
+     success: function(data) {
+       if(data !== 'enter a valid id')
+       {
+           this.setState({content:'Added'});
+           this.setState({disable:true});
+       }
+     }.bind(this),
+     error: function(err) {
+       console.error(err.toString());
+     }
+   });
+   this.refresh();
+  }
+
+  componentDidMount()
+  {
+    this.find();
   }
 
   render()
   {
     return(
       <Modal
-        trigger={<Button color='green' floated = 'right' onClick={this.handleOpen}>
+        trigger={<Button color='green' floated = 'right' onClick={this.handleOpen} disabled={this.state.disable}>
           <Icon name='add' />{this.state.content}</Button>}
         open={this.state.modalOpen}
         onClose={this.handleClose}

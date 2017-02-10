@@ -8,9 +8,9 @@ class Update extends React.Component {
     super();
     this.handleOpen = this.handleOpen.bind(this);
     this.handleClose = this.handleClose.bind(this);
-    this.change = this.change.bind(this);
+    this.change1 = this.change1.bind(this);
     this.update = this.update.bind(this);
-    this.state = {'id': '' , 'name': '' , 'address': '', 'rating': '' ,'viewArray' : [], 'comment': '', modalOpen: false, content: 'Update'}
+    this.state = {'id': '' , 'name': '' , 'address': '', 'rating': '' ,'viewArray' : [], 'comment': '', modalOpen: false}
   }
 
     handleOpen = (e) => this.setState({
@@ -19,11 +19,12 @@ class Update extends React.Component {
 
     handleClose(e) {
       this.setState({modalOpen: false});
-      this.setState({content: 'Updated'});
+      this.setState({commit: e.target.value});
+      this.changeState = this.changeState.bind(this);
       this.update();
-  }
+    }
 
-  change(event)
+  change1(event)
   {
     this.setState({[event.target.name]: event.target.value})
   }
@@ -45,13 +46,19 @@ class Update extends React.Component {
        console.error(err.toString());
      }.bind(this)
    });
+   this.changeState();
   }
+
+    changeState()
+    {
+      this.props.change();
+    }
 
   render()
   {
     return(
       <Modal
-        trigger={<Button color='green' floated = 'right' onClick={this.handleOpen}><Icon name='upload' />{this.state.content}</Button>}
+        trigger={<Button color='green' floated = 'right' onClick={this.handleOpen}><Icon name='upload' />Update</Button>}
         open={this.state.modalOpen}
         onClose={this.handleClose}
         basic
@@ -60,13 +67,13 @@ class Update extends React.Component {
         <Modal.Content>
           <h3>Do you wish to update your comment?</h3>
           <Input type="text" name="comment" value={this.state.comment}
-            onChange={this.change}/>
+            onChange={this.change1}/>
         </Modal.Content>
         <Modal.Actions>
-          <Button color='green' onClick={this.handleClose} inverted>
+          <Button color='green' onClick={this.handleClose} value={this.state.comment} inverted>
             <Icon name='checkmark' /> Update
           </Button>
-          <Button color='green' onClick={this.handleClose} inverted>
+          <Button color='green' onClick={this.handleClose} value='' inverted>
             <Icon name='cut' /> Cancel
           </Button>
         </Modal.Actions>
