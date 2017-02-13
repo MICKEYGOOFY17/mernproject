@@ -25,12 +25,12 @@ class Delete extends React.Component {
        console.error(err.toString());
      }.bind(this)
    });
-   this.changeState();
+   this.changeState(this.props.val);
   }
 
-    changeState()
+    changeState(key)
     {
-      this.props.change();
+      this.props.change(key,'delete');
     }
 
   render()

@@ -25,9 +25,9 @@ class Add extends React.Component {
         <div>
             <Update id = {this.props.id} name = {this.props.name}
               address = {this.props.address} rating = {this.props.rating}
-              image = {this.props.image} change={this.props.change}/>
+              image = {this.props.image} change={this.props.change} val={this.props.val}/>
 
-              <Delete id = {this.props.id} change={this.props.change}/>
+              <Delete id = {this.props.id} change={this.props.change} val={this.props.val}/>
         </div>
         );
       }

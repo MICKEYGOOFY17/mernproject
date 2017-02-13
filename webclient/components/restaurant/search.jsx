@@ -1,15 +1,17 @@
 import React from 'react';
 import {Button, Icon, Input} from 'semantic-ui-react';
+import $ from 'jquery';
 
 class ChildComponent extends React.Component {
   constructor() {
         super();
-        this.state = {'location' : '' ,'cuisine' : ''};
+        this.state = {'location' : '' , 'cuisine' : ''};
         this.click = this.click.bind(this);
         this.change = this.change.bind(this);
     }
     click(location, cuisine) {
       this.props.click(location, cuisine);
+      $('input[type="text"]').val('');
     }
     change(event)
     {
@@ -19,9 +21,9 @@ class ChildComponent extends React.Component {
         return (
             <div>
               <Input type = 'text' name = 'location' placeholder = 'City Id'
-                 onChange = {this.change} value = {this.state.location} style = {{marginTop: 10}}/>
+                 onChange = {this.change} style = {{marginTop: 10}}/>
                 <Input type = 'text' name = 'cuisine' placeholder = 'Cuisine'
-                   onChange = {this.change} value = {this.state.cuisine} style = {{marginTop: 10}}/>
+                   onChange = {this.change} style = {{marginTop: 10}}/>
                   <Button size='large' color='blue' style = {{margin: 5}}
                     onClick = {this.click.bind(this, this.state.location, this.state.cuisine)}>
                     Search

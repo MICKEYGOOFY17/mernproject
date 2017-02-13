@@ -11,7 +11,7 @@ var url = supertest("http://localhost:8080/restaurant");
    it("should add details", function(done){
      url
          .post("/add")
-         .send({"_id": 7,"name": "Le Promanade","address": [{"city": "Pondicherry","state": "Pondicherry"}]})
+         .send({"_id": "7","name": "Le Promanade","address": "Pondicherry","image" : "hbc" , "rating" : "3", "comments" : "good"})
          .expect(200)
          .end(function(err,res){
            should.not.exist(err);
@@ -22,11 +22,11 @@ var url = supertest("http://localhost:8080/restaurant");
     it("should have new id and all details", function(done){
         url
             .post("/add")
-            .send({"_id": 7,"name": "Le Paradise","address": [{"city": "Pondicherry","state": "Pondicherry"}]})
+            .send({"_id": "7","name": "Le Promanade","address": "Pondicherry","image" : "hbc" , "rating" : "3", "comments" : "good"})
             .expect(200)
             .end(function(err,res){
               should.not.exist(err);
-              res.text.should.equal('please enter all the details, with new id');
+              res.text.should.equal('enter new id');
               done();
             });
       });
@@ -44,41 +44,12 @@ var url = supertest("http://localhost:8080/restaurant");
   });
 
 
-  /* display data based on request */
-  describe("Testing the restaurant route", function(err){
-    it("should display the city details", function(done){
-      url
-          .get("/displaycity/Pondicherry")
-          .expect(200)
-          .end(function(err,res){
-            if (err) {
-  				        throw err;
-  			    }
-            JSON.parse(res.text)[0].address[0].city.should.equal('Pondicherry');
-            done();
-          });
-    });
-    it("should ask to enter correct data if city is invalid", function(done){
-        url
-            .get("/displaycity/Kashmir")
-            .expect(200)
-            .end(function(err,res){
-              if (err) {
-    				        throw err;
-    			    }
-              res.text.should.equal('enter a valid city');
-              done();
-            });
-      });
-  });
-
-
 /* update details based on request */
 describe("Testing PUT route", function(err){
  it("should update the details", function(done){
    url
        .put("/update")
-       .send({"_id": 7,"name": "Le Promanade","address": [{"city": "Pondicherry","state": "Pondicherry"}]})
+       .send({"_id": "7","name": "Le Promanade","address": "Pondicherry","image" : "hbc" , "rating" : "3", "comments" : "bad"})
        .expect(200)
        .end(function(err,res){
          should.not.exist(err);
@@ -86,18 +57,7 @@ describe("Testing PUT route", function(err){
          done();
        });
  });
- it("should give all details", function(done){
-   url
-       .put("/update")
-       .send({"_id": 7,"name": "","address": [{"city": "Pondicherry","state": "Pondicherry"}]})
-       .expect(200)
-       .end(function(err,res){
-         should.not.exist(err);
-         res.text.should.equal('enter a valid restaurant details');
-         done();
-       });
-     });
-});
+ });
 
 
 /* should delete based on id */
@@ -105,7 +65,7 @@ describe("Testing DELETE route", function(err){
  it("should delete details of specified id", function(done){
    url
        .delete("/deleteid")
-       .send({_id : 7})
+       .send({id : "7"})
        .expect(200)
        .end(function(err,res){
          should.not.exist(err);

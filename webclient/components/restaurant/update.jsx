@@ -46,12 +46,12 @@ class Update extends React.Component {
        console.error(err.toString());
      }.bind(this)
    });
-   this.changeState();
+   this.changeState(this.props.val,this.state.comment);
   }
 
-    changeState()
+    changeState(key,comment)
     {
-      this.props.change();
+      this.props.change(key,comment);
     }
 
   render()

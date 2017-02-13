@@ -8,12 +8,12 @@ module.exports = {
    app: [
    'webpack/hot/dev-server',
     'webpack-hot-middleware/client?reload=true',
-    path.join(__dirname, "webclient", "clientapp.jsx")]
+    path.join(__dirname, 'webclient', 'clientapp.jsx')]
  },
  output: {
-   path: path.join(__dirname, "webclient", "dist"),
-   publicPath: "/dist/",
-   filename: "bundle.js"
+   path: path.join(__dirname, 'webclient', 'dist'),
+   publicPath: '/dist/',
+   filename: 'bundle.js'
  },
 
  module: {
@@ -25,7 +25,7 @@ module.exports = {
               },
               {
                 test: /\.css$/,
-                loader:"style-loader!css-loader",
+                loader:'style-loader!css-loader',
                 include: [/flexboxgrid/,/react-select/]
               }]
  },

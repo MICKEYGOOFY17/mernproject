@@ -72,7 +72,7 @@ class ListItem extends React.Component {
                                   <Add id = {this.props.id} name = {this.props.name}
                                     address = {this.props.address} rating = {this.props.rating}
                                     image = {this.props.image} detail={this.props.detail} change={ch}
-                                     refresh = {this.refresh}/>
+                                     refresh = {this.refresh} val={this.props.val}/>
                               </Card.Content>
                         </Card>
     );

@@ -20,9 +20,11 @@ class Display extends React.Component {
     if(ingredients.length > 0)
     {
     let ListItems = ingredients.map(function(item) {
-        return (<ListItem key={arguments[1]} id={item._id} name={item.name} address = {item.address}
+        let val = arguments[1];
+        return (<ListItem val={val} id={item._id} name={item.name} address = {item.address}
           rating = {item.rating} cuisine = {item.cuisines} image={item.image} detail = {detail}
           comment = {item.comments} change={ch}/>);
+
       });
         return <Card.Group style={{paddingLeft: 20, paddingRight: -20}}>{ListItems}</Card.Group>;
     }

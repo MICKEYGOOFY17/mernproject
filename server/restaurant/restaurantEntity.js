@@ -25,7 +25,8 @@ let restaurantSchema = new Schema({
   },
   comments: {
       type: String,
-      default: ''
+      default: '',
+      required: true
   }
 });
 

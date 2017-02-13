@@ -23,12 +23,40 @@ describe("for entity",function(){
       });
   });
 
-  /* testing city to be a required field */
+  /* testing address to be a required field */
   it("address should be mandatory",function(done){
       let use = new restaurant();
       use.validate(function(err){
-        expect(err.errors.address.to.exist;
+        expect(err.errors.address).to.exist;
         done();
       });
   });
+
+  /* testing image to be required */
+  it("image should be mandatory",function(done){
+        let use = new restaurant();
+        use.validate(function(err){
+          expect(err.errors.image).to.exist;
+          done();
+        });
+    });
+
+
+    /* testing rating to be a required field */
+    it("rating should be mandatory",function(done){
+        let use = new restaurant();
+        use.validate(function(err){
+          expect(err.errors.rating).to.exist;
+          done();
+        });
+    });
+
+    /* testing comment to be required */
+    it("comment should be mandatory",function(done){
+          let use = new restaurant();
+          use.validate(function(err){
+            expect(err.errors.comments).to.exist;
+            done();
+          });
+      });
 });

@@ -27,8 +27,16 @@ class Favourites extends React.Component {
       this.view();
     }
 
-    change() {
-      this.view();
+    change(key,mode) {
+      if(mode === 'delete')
+      {
+        this.state.viewArray.splice(key,1);
+        this.setState({viewArray: this.state.viewArray});
+      }
+      else {
+        this.state.viewArray[key].comments = mode;
+        this.setState({viewArray: this.state.viewArray});
+      }
     }
 
     render() {
