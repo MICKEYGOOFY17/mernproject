@@ -19,12 +19,12 @@ class ChildComponent extends React.Component {
     }
     render() {
         return (
-            <div>
-              <Input type = 'text' name = 'location' placeholder = 'City Id'
-                 onChange = {this.change} style = {{marginTop: 10}}/>
+            <div style={{marginLeft:300}}>
+              <Input type = 'text' name = 'location' placeholder = 'City Name'
+                 onChange = {this.change} style = {{marginTop: 10, marginRight: 10}}/>
                 <Input type = 'text' name = 'cuisine' placeholder = 'Cuisine'
                    onChange = {this.change} style = {{marginTop: 10}}/>
-                  <Button size='large' color='blue' style = {{margin: 5}}
+                  <Button size='large' color='blue' style = {{margin: 10}}
                     onClick = {this.click.bind(this, this.state.location, this.state.cuisine)}>
                     Search
                     <Icon name='right arrow' />

@@ -5,10 +5,20 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const config = require('../config/');
 const logger = require('../applogger');
+const passport = require('./passport/passport.js');
+const connectflash = require('connect-flash');
 
 function createApp() {
   const app = express();
   return app;
+}
+
+function setupPassport(app) {
+ app.use(require('express-session')({secret: 'accesskey'}));
+ app.use(passport.initialize());
+ app.use(passport.session());
+ app.use(connectflash());
+ return app;
 }
 
 function setupStaticRoutes(app) {
@@ -17,7 +27,6 @@ function setupStaticRoutes(app) {
 }
 
 function setupRestRoutes(app) {
-  console.log('Inside service setupRestRoutes');
   app.use('/users', require(path.join(__dirname, './users')));
   app.use('/restaurant', require(path.join(__dirname, './restaurant')));
   //  MOUNT YOUR REST ROUTE HERE
@@ -54,10 +63,10 @@ function setupMiddlewares(app) {
   const compression = require('compression');
   app.use(compression());
 
-  app.use(function(req,res,next)
+  app.use(function(req, res, next)
   {
-    res.header('Access-Control-Allow-Origin',"*");
-    res.header('Access-Control-Allow-Method','GET,POST,PUT,DELETE');
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Method', 'GET,POST,PUT,DELETE');
     res.header('Access-Control-Allow-Headers',
       'Origin, X-Requested-With, Content-Type, Accept, Authorization');
     next();
@@ -123,6 +132,7 @@ function setupMongooseConnections() {
 // App Constructor function is exported
 module.exports = {
   createApp: createApp,
+  setupPassport: setupPassport,
   setupStaticRoutes: setupStaticRoutes,
   setupRestRoutes: setupRestRoutes,
   setupMiddlewares: setupMiddlewares,

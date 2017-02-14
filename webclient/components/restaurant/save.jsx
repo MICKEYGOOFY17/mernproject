@@ -17,11 +17,15 @@ class Save extends React.Component {
   }
 
     handleOpen = (e) => this.setState({
-      modalOpen: true,
+      modalOpen: true
     })
 
     handleClose(e) {
       this.setState({modalOpen: false});
+      if(this.state.comment === '')
+      {
+        this.setState({comment:'not yet commented'})
+      }
       this.save();
   }
 

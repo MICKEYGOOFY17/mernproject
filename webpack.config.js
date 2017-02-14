@@ -20,16 +20,16 @@ module.exports = {
      loaders: [{
                test: /\.jsx$/,
                loaders: [
-                            'react-hot','babel?presets[]=react,presets[]=es2015,presets[]=stage-1'
+                            'react-hot', 'babel?presets[]=react,presets[]=es2015,presets[]=stage-1'
                          ]
               },
               {
                 test: /\.css$/,
                 loader:'style-loader!css-loader',
-                include: [/flexboxgrid/,/react-select/]
+                include: [/flexboxgrid/, /react-select/]
               }]
  },
- watch:true,
+ watch: true,
  resolve: {
    extensions: ['', '.js', '.jsx', '/index.js', '/index.jsx']
  },
